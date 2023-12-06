@@ -4,7 +4,7 @@ export function getCard(number, mod) {
   switch (number) {
     case 1:
       return getProductCard(
-        "../images/img1.jpeg",
+        "./images/img1.jpeg",
         "Наушники дорогие",
         1,
         "44 000",
@@ -13,7 +13,7 @@ export function getCard(number, mod) {
 
     case 2:
       return getProductCard(
-        "../images/img2.jpeg",
+        "./images/img2.jpeg",
         "Наушники детские",
         2,
         "1 200",
@@ -22,7 +22,7 @@ export function getCard(number, mod) {
 
     case 3:
       return getProductCard(
-        "../images/img3.jpeg",
+        "./images/img3.jpeg",
         "Наушники черные",
         3,
         "2 500",
@@ -31,7 +31,7 @@ export function getCard(number, mod) {
 
     case 4:
       return getProductCard(
-        "../images/img4.jpeg",
+        "./images/img4.jpeg",
         "Наушники белые",
         4,
         "4 100",
@@ -40,7 +40,7 @@ export function getCard(number, mod) {
 
     case 5:
       return getProductCard(
-        "../images/img5.jpeg",
+        "./images/img5.jpeg",
         "Микрофон дорогой",
         5,
         "11 000",
@@ -49,7 +49,7 @@ export function getCard(number, mod) {
 
     case 6:
       return getProductCard(
-        "../images/img6.jpeg",
+        "./images/img6.jpeg",
         "Микрофон красивый",
         6,
         "9 200",
@@ -58,7 +58,7 @@ export function getCard(number, mod) {
 
     case 7:
       return getProductCard(
-        "../images/img7.jpeg",
+        "./images/img7.jpeg",
         "Микрофон дешевый",
         7,
         "3 220",
@@ -67,7 +67,7 @@ export function getCard(number, mod) {
 
     case 8:
       return getProductCard(
-        "../images/img8.jpeg",
+        "./images/img8.jpeg",
         "Микрофон обычный",
         8,
         "4 300",
@@ -76,7 +76,7 @@ export function getCard(number, mod) {
 
     case 9:
       return getProductCard(
-        "../images/img9.jpeg",
+        "./images/img9.jpeg",
         "Пауэрбанк Маленький",
         9,
         "1 100",
@@ -85,7 +85,7 @@ export function getCard(number, mod) {
 
     case 10:
       return getProductCard(
-        "../images/img10.jpeg",
+        "./images/img10.jpeg",
         "Пауэрбанк белый",
         10,
         "900",
@@ -94,7 +94,7 @@ export function getCard(number, mod) {
 
     case 11:
       return getProductCard(
-        "../images/img11.jpeg",
+        "./images/img11.jpeg",
         "Пауэрбанк дорогой",
         11,
         "2 300",
@@ -103,7 +103,7 @@ export function getCard(number, mod) {
 
     case 12:
       return getProductCard(
-        "../images/img12.jpeg",
+        "./images/img12.jpeg",
         "Пауэрбанк черный",
         12,
         "950",
