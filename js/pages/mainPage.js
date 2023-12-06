@@ -16,8 +16,8 @@ export function getMainPage() {
   const list1 = document.createElement("ul");
   list1.classList.add("photos");
   list1.append(
-    getImg("../images/img1.jpeg", "Наушники дорогие"),
-    getImg("../images/img3.jpeg", "Наушники дешевые")
+    getImg("images/img1.jpeg", "Наушники дорогие"),
+    getImg("images/img3.jpeg", "Наушники дешевые")
   );
 
   const desc1 = getDesc(
@@ -29,8 +29,8 @@ export function getMainPage() {
   const list2 = document.createElement("ul");
   list2.classList.add("photos");
   list2.append(
-    getImg("../images/img5.jpeg", "Микрофон 1"),
-    getImg("../images/img6.jpeg", "Микрофон 2")
+    getImg("./images/img5.jpeg", "Микрофон 1"),
+    getImg("./images/img6.jpeg", "Микрофон 2")
   );
 
   const desc2 = getDesc(
@@ -43,8 +43,8 @@ export function getMainPage() {
   const list3 = document.createElement("ul");
   list3.classList.add("photos");
   list3.append(
-    getImg("../images/img11.jpeg", "Микрофон 1"),
-    getImg("../images/img12.jpeg", "Микрофон 2")
+    getImg("/images/img11.jpeg", "Микрофон 1"),
+    getImg(".../images/img12.jpeg", "Микрофон 2")
   );
 
   const desc3 = getDesc(
